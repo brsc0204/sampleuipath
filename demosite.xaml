@@ -1,0 +1,289 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="demosite" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="634.6666666666666,3690" sap2010:WorkflowViewState.IdRef="demosite_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Core.Activities.Orchestrator</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="demosite" sap:VirtualizedContainerService.HintSize="644.6666666666666,3585.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="582.6666666666666,2250.6666666666665" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="546,2170.6666666666665" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Only Testing: Testing" sap:VirtualizedContainerService.HintSize="484,2060" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="cee70f69-e479-49af-8a0a-00c735f832b5" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1881.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="path">
+                      <Variable.Default>
+                        <Literal x:TypeArguments="x:String">C:\Users\CHIPASYMFST\Desktop\example.txt</Literal>
+                      </Variable.Default>
+                    </Variable>
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Testing'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="cee70f69-e479-49af-8a0a-00c735f832b5" Text="uipath" Version="V3">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable BrowserURL="https://only-testing-blog.blogspot.com/2013/09/testing.html" CvElementArea="394, 385, 260, 36" CvType="InputBox" DesignTimeRectangle="398, 388, 255, 32" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='' aaname='' /&gt;" Guid="5d0b3173-7585-48f2-b508-9bc33e9532d0" InformativeScreenshot="5db18b5000ab8004722a91dc2389a34f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Only Testing: Testing' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target CvTextArea="288, 328, 108, 37" CvTextArgument="Testing" CvType="Text" DesignTimeRectangle="291, 326, 864, 38" ElementType="Text" FriendlyName="'Testing'" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='post-title entry-title' aaname=' Testing ' check:innerText='Testing' /&gt;" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <uix:NCheck Action="Check" DisplayName="Check/Uncheck 'Testing'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NCheck_1" ScopeIdentifier="cee70f69-e479-49af-8a0a-00c735f832b5" Version="V3">
+                    <uix:NCheck.Target>
+                      <uix:TargetAnchorable BrowserURL="https://only-testing-blog.blogspot.com/2013/09/testing.html" CvElementArea="295, 399, 22, 22" CvType="CheckBox" DesignTimeRectangle="297, 402, 20, 20" DesignTimeScaleFactor="1.5" ElementType="CheckBox" FriendlyName="'Checkbox'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='checkbox' class='' aaname='' /&gt;" Guid="610ddda6-558f-4e41-bb60-4d4ea7c88190" InformativeScreenshot="7c9f1a65927ea02721672578a822905b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Only Testing: Testing' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target CvTextArea="288, 274, 108, 36" CvTextArgument="Testing" CvType="Text" DesignTimeRectangle="291, 271, 864, 38" ElementType="Text" FriendlyName="'Testing'" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='post-title entry-title' aaname=' Testing ' check:innerText='Testing' /&gt;" SearchSteps="FuzzySelector, CV" />
+                            <uix:Target CvTextArea="325, 402, 115, 21" CvTextArgument="I have a bike" CvType="Text" DesignTimeRectangle="326, 402, 115, 21" ElementType="Text" FriendlyName="'I have a bike'" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                            <uix:Target CvElementArea="393, 363, 260, 35" CvType="InputBox" DesignTimeRectangle="395, 365, 255, 32" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl name='lname' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl name='lname' tag='INPUT' type='text' class='' aaname='' /&gt;" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NCheck.Target>
+                  </uix:NCheck>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'INPUT'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cee70f69-e479-49af-8a0a-00c735f832b5" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://only-testing-blog.blogspot.com/2013/09/testing.html" CvElementArea="297, 588, 21, 22" CvType="RadioButton" DesignTimeRectangle="299, 590, 20, 20" DesignTimeScaleFactor="1.5" ElementType="RadioButton" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl idx='2' tag='INPUT' type='radio' /&gt;" FuzzySelectorArgument="&lt;webctrl class='' tag='INPUT' type='radio' aaname='' /&gt;" Guid="dd900895-4499-4672-9f4f-64ccf5ef1faf" InformativeScreenshot="4649b3bd2f41ac32bb04807a0b54349c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Only Testing: Testing' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target CvElementArea="297, 558, 22, 21" CvType="RadioButton" DesignTimeRectangle="299, 560, 20, 20" ElementType="RadioButton" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='radio' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='radio' class='' aaname='' /&gt;" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NSelectItem DisplayName="Select Item 'Volvo'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="Opel" ScopeIdentifier="cee70f69-e479-49af-8a0a-00c735f832b5" Version="V3">
+                    <uix:NSelectItem.Items>
+                      <scg:List x:TypeArguments="x:String" Capacity="5">
+                        <x:String>Volvo</x:String>
+                        <x:String>Saab</x:String>
+                        <x:String>Opel</x:String>
+                        <x:String>Audi</x:String>
+                        <x:String>Oct 05 2013</x:String>
+                      </scg:List>
+                    </uix:NSelectItem.Items>
+                    <uix:NSelectItem.Target>
+                      <uix:TargetAnchorable BrowserURL="https://only-testing-blog.blogspot.com/2013/09/testing.html" CvTextArea="402, 606, 51, 19" CvTextArgument="Volvo" CvType="Text" DesignTimeRectangle="397, 604, 144, 26" DesignTimeScaleFactor="1.5" ElementType="DropDown" FriendlyName="'Volvo'" FullSelectorArgument="&lt;webctrl tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SELECT' type='' class='' aaname='' /&gt;" Guid="dfd2b261-dbe3-4fca-a103-d71cdde255cc" InformativeScreenshot="7ff45a0b6145ed1e3b8877e473aca327.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Only Testing: Testing' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target CvElementArea="408, 569, 133, 34" CvTextArea="420, 574, 254, 21" CvTextArgument="Choose File No file chosen" CvType="Button" DesignTimeRectangle="411, 571, 379, 32" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='file' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='file' class='' aaname='' /&gt;" SearchSteps="FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NSelectItem.Target>
+                  </uix:NSelectItem>
+                  <ui:SelectMultipleItems AddToSelection="{x:Null}" AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Multiple Items 'SELECT'" sap:VirtualizedContainerService.HintSize="388,107.33333333333333" sap2010:WorkflowViewState.IdRef="SelectMultipleItems_1" MultipleItems="[{&quot;USA&quot;,&quot;Japan&quot;,&quot;Mexico&quot;}]">
+                    <ui:SelectMultipleItems.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="4a6c2bb2-66fa-4846-b6e2-c9c06deb60e9" InformativeScreenshot="879f680fb5dc91c352b8429dbb79b4ff" Selector="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='SELECT' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:SelectMultipleItems.Target>
+                  </ui:SelectMultipleItems>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '-&gt;'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cee70f69-e479-49af-8a0a-00c735f832b5" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://only-testing-blog.blogspot.com/2013/09/testing.html" CvElementArea="414, 763, 45, 35" CvType="Button" DesignTimeRectangle="417, 765, 42, 32" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'-&gt;'" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='button' tag='INPUT' class='' aaname='-&amp;gt;' check:text='-&amp;gt;' /&gt;" Guid="517a9393-14f3-476a-8a5c-4d88a41939e4" InformativeScreenshot="2b3f676be38659f13a0acde5673df881.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Only Testing: Testing' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'INPUT'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cee70f69-e479-49af-8a0a-00c735f832b5" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="https://only-testing-blog.blogspot.com/2013/09/testing.html" CvElementArea="408, 478, 134, 34" CvTextArea="420, 483, 254, 21" CvTextArgument="Choose File No file chosen" CvType="Button" DesignTimeRectangle="411, 480, 379, 32" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='file' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='file' class='' aaname='' /&gt;" Guid="0aa4ba27-d492-4b7d-9107-32a8d179c62a" InformativeScreenshot="eb27d345a5127ec7b242eae05f0de142.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Only Testing: Testing' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'example'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cee70f69-e479-49af-8a0a-00c735f832b5" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CvTextArea="306, 229, 69, 22" CvTextArgument="example" CvType="Text" DesignTimeRectangle="305, 223, 405, 33" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'example'" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd ctrlid='1121' title='ShellView' /&gt;&lt;wnd aaname='Items View' cls='DirectUIHWND' /&gt;&lt;ctrl name='Items View' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' role='editable text' check:text='example' /&gt;" Guid="52088bde-5fd8-446c-b0ef-8b46c0dee8ff" InformativeScreenshot="59bba5ca115a1aa2da81cf7f00827adc.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'unchecked'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cee70f69-e479-49af-8a0a-00c735f832b5" Version="V3">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CvElementArea="640, 651, 134, 41" CvTextArea="682, 663, 48, 21" CvTextArgument="Open" CvType="Button" DesignTimeRectangle="641, 652, 132, 39" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' check:text='unchecked' /&gt;" Guid="ea0c0bf8-39ea-480a-abc0-772b5bb45fce" InformativeScreenshot="fdc2d927d49c08c83c401ac5fb2f6ee9.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                  </uix:NClick>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="0, 0, 1920, 1008" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACpSURBVDhPY4CBf2lM/0nBUG0QgE0BMZgizTCMacC+vv//vr37/+/fPwQ+t+7/vyIhVHVQjGoASDOyRmR8ax+KRhhGNQDZ5nlxEIws1mSEohmEUQ2AKVyVhxADGQIT39SEYQh2AwhhJD00MgDZCzAMEiNoALZAhGGYOEgNkh5UA/BFIwyD1CDpQTUAhLElJBAGiaFpBmFMA0jEFOUHsGYYwKYAH4boYmAAAJkiu/OVhi+bAAAAAElFTkSuQmCC" InformativeScreenshot="2d1bb5b212cf83008f0ef258b06672c4.jpg" Selector="&lt;html app='chrome.exe' title='Only Testing: Testing' /&gt;" Title="Only Testing: Testing" Url="https://only-testing-blog.blogspot.com/2013/09/testing.html" />
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+        </Sequence>
+      </ui:CommentOut.Body>
+    </ui:CommentOut>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Only Testing: Drag and Drop" sap:VirtualizedContainerService.HintSize="582.6666666666666,1184" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="764f1388-09ce-4d59-9eab-b9a726462354" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="546,964.6666666666666" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NDragAndDrop CursorMotionType="Smooth" DelayBetweenActions="0.3" DestinationScopeIdentifier="764f1388-09ce-4d59-9eab-b9a726462354" DisplayName="Drag and Drop 'Drag me to my target'" sap:VirtualizedContainerService.HintSize="484,232.66666666666666" sap2010:WorkflowViewState.IdRef="NDragAndDrop_1" ScopeIdentifier="764f1388-09ce-4d59-9eab-b9a726462354" Version="V3">
+              <uix:NDragAndDrop.DestinationTarget>
+                <uix:TargetAnchorable BrowserURL="https://only-testing-blog.blogspot.com/2014/09/drag-and-drop.html" CvTextArea="502, 591, 95, 22" CvTextArgument="Drop here" CvType="Text" DesignTimeRectangle="493, 556, 247, 247" DesignTimeScaleFactor="1.5" FriendlyName="'Drop here'" FullSelectorArgument="&lt;webctrl id='dropdiv' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='dropdiv' tag='DIV' type='' class='header ui-droppable' aaname='  ' check:innerText='Drop here' /&gt;" Guid="3287b9e5-2bea-449d-8b41-07e4eadd10ec" InformativeScreenshot="fe15eac0a4e200b9af4bd08e865770c4.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Only Testing: Drag and Drop' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="291, 541, 864, 579" FriendlyName="'Simple jquery'" FullSelectorArgument="&lt;webctrl id='post-body-5978252100611321093' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='post-body-5978252100611321093' tag='DIV' type='' class='post-body entry-content' aaname='                                        ' check:innerText='Drag me to my target&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Drop here&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;&amp;#xD;&amp;#xA;Resizable' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NDragAndDrop.DestinationTarget>
+              <uix:NDragAndDrop.Target>
+                <uix:TargetAnchorable BrowserURL="https://only-testing-blog.blogspot.com/2014/09/drag-and-drop.html" CvElementArea="290, 554, 174, 177" CvType="Button" DesignTimeRectangle="291, 556, 172, 172" DesignTimeScaleFactor="1.5" FriendlyName="'Drag me to my target'" FullSelectorArgument="&lt;webctrl id='dragdiv' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='dragdiv' tag='DIV' type='' class='content ui-draggable ui-draggable-handle' aaname='  ' check:innerText='Drag me to my target' /&gt;" Guid="fd726adc-9bb1-48af-90ea-ed4280365397" InformativeScreenshot="d61eb52eb612ae505125e0fccfc2e334.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Only Testing: Drag and Drop' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NDragAndDrop.Target>
+            </uix:NDragAndDrop>
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Only Testing" sap:VirtualizedContainerService.HintSize="484,576" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="406855fb-7b8e-4da7-8b4f-7fb5fb72f57d" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,356.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NMouseScroll KeyModifiers="{x:Null}" Direction="Down" DisplayName="Mouse Scroll" sap:VirtualizedContainerService.HintSize="388,240.66666666666666" sap2010:WorkflowViewState.IdRef="NMouseScroll_1" InteractionMode="HardwareEvents" MovementUnits="10" Version="V3">
+                      <uix:NMouseScroll.SearchedElement>
+                        <uix:SearchedElement>
+                          <uix:SearchedElement.Target>
+                            <uix:TargetAnchorable BrowserURL="https://only-testing-blog.blogspot.com/" CvTextArea="292, 492, 54, 30" CvTextArgument="Sub" CvType="Text" DesignTimeRectangle="294, 489, 52, 38" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Sub'" FullSelectorArgument="&lt;webctrl aaname='Sub' parentid='Blog1' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Sub' parentid='Blog1' tag='A' type='' class='' check:innerText='Sub' /&gt;" Guid="0f617e10-6c7f-4975-9b50-59450b9ea4d8" InformativeScreenshot="787a86aa32b1d1abeeb11846f58344a1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Only Testing' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+                          </uix:SearchedElement.Target>
+                          <uix:SearchedElement.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:SearchedElement.Timeout>
+                        </uix:SearchedElement>
+                      </uix:NMouseScroll.SearchedElement>
+                    </uix:NMouseScroll>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="15, 15, 1920, 1008" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACpSURBVDhPY4CBf2lM/0nBUG0QgE0BMZgizTCMacC+vv//vr37/+/fPwQ+t+7/vyIhVHVQjGoASDOyRmR8ax+KRhhGNQDZ5nlxEIws1mSEohmEUQ2AKVyVhxADGQIT39SEYQh2AwhhJD00MgDZCzAMEiNoALZAhGGYOEgNkh5UA/BFIwyD1CDpQTUAhLElJBAGiaFpBmFMA0jEFOUHsGYYwKYAH4boYmAAAJkiu/OVhi+bAAAAAElFTkSuQmCC" InformativeScreenshot="3cb9edfb986243ea82b8c54018f1eca2.jpg" Selector="&lt;html app='chrome.exe' title='Only Testing' /&gt;" Title="Only Testing" Url="https://only-testing-blog.blogspot.com/" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="15, 15, 1920, 1008" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAACpSURBVDhPY4CBf2lM/0nBUG0QgE0BMZgizTCMacC+vv//vr37/+/fPwQ+t+7/vyIhVHVQjGoASDOyRmR8ax+KRhhGNQDZ5nlxEIws1mSEohmEUQ2AKVyVhxADGQIT39SEYQh2AwhhJD00MgDZCzAMEiNoALZAhGGYOEgNkh5UA/BFIwyD1CDpQTUAhLElJBAGiaFpBmFMA0jEFOUHsGYYwKYAH4boYmAAAJkiu/OVhi+bAAAAAElFTkSuQmCC" InformativeScreenshot="607a4f2f25fa6cf81b99172448f0de97.jpg" Selector="&lt;html app='chrome.exe' title='Only Testing: Drag and Drop' /&gt;" Title="Only Testing" Url="https://only-testing-blog.blogspot.com/2014/09/drag-and-drop.html" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

@@ -1,0 +1,129 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "demosite.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "path&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Ecomm_testcase.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "order_status&Sequence_1",
+        "order_id&Sequence_1",
+        "msg&Sequence_1",
+        "email&Sequence_1",
+        "pwd&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "swagLab-ecomm.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "status&Sequence_2",
+        "ord_status&Sequence_2",
+        "pin&Sequence_2",
+        "lname&Sequence_2",
+        "fname&Sequence_2",
+        "pwd&Sequence_2",
+        "username&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Ecomm2_testcase.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "email&Sequence_1",
+        "pwd&Sequence_1",
+        "ord_status&Sequence_2",
+        "ord_id&Sequence_2",
+        "msg&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Loan_app.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "loan_id&Sequence_2",
+        "loan_per&Sequence_2",
+        "loan_rate&Sequence_2",
+        "status&Sequence_2",
+        "age&Sequence_2",
+        "Inc&Sequence_2",
+        "loan_amt&Sequence_2",
+        "email&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "swagLab-testcase.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "username&Sequence_2",
+        "pwd&Sequence_2",
+        "fname&Sequence_2",
+        "lname&Sequence_2",
+        "pin&Sequence_2",
+        "status&Sequence_2",
+        "ord_status&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "EToE-testcase.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ord_msg&Sequence_2",
+        "status&Sequence_2",
+        "pincode&Sequence_2",
+        "city&Sequence_2",
+        "address&Sequence_2",
+        "lname&Sequence_2",
+        "fname&Sequence_2",
+        "product&Sequence_2",
+        "pwd&Sequence_2",
+        "email&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Reusability-test2.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "status&Sequence_2",
+        "url_var&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

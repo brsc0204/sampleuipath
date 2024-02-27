@@ -1,0 +1,265 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Ecomm2_testcase" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="590,3864" sap2010:WorkflowViewState.IdRef="Ecomm2_testcase_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.Testing.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.Testing</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Ecomm2_testcase" sap:VirtualizedContainerService.HintSize="546,3799.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="email">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">uipath023@gmail.com</Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="pwd">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">Rpauipath@42</Literal>
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Customer Login" sap:VirtualizedContainerService.HintSize="484,3688.6666666666665" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="4f998ac0-f06e-4093-aace-6557d0a9331c" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,3469.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="ord_status" />
+              <Variable x:TypeArguments="x:String" Name="ord_id" />
+              <Variable x:TypeArguments="x:String" Name="msg">
+                <Variable.Default>
+                  <Literal x:TypeArguments="x:String">Thank you for your purchase!</Literal>
+                </Variable.Default>
+              </Variable>
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Email'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="4f998ac0-f06e-4093-aace-6557d0a9331c" Text="[email]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/" CvElementArea="39, 507, 692, 53" CvType="InputBox" DesignTimeRectangle="41, 510, 689, 48" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT email'" FullSelectorArgument="&lt;webctrl id='email' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='email' class='input-text' aaname='Email' /&gt;" Guid="87455982-cf76-4a00-836a-b8228bca92b8" InformativeScreenshot="e3d00af77ec23443c187543f78abd42a.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='33486968' title='Customer Login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvTextArea="40, 471, 74, 21" CvTextArgument="Email *" CvType="Text" DesignTimeRectangle="41, 468, 73, 30" ElementType="Text" FriendlyName="'Email'" FullSelectorArgument="&lt;webctrl parentid='login-form' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='login-form' tag='LABEL' type='' class='label' aaname='' check:innerText='Email' /&gt;" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="4f998ac0-f06e-4093-aace-6557d0a9331c" Text="[pwd]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/" CvElementArea="39, 627, 692, 53" CvType="InputBox" DesignTimeRectangle="41, 630, 689, 48" DesignTimeScaleFactor="1.5" ElementType="InputBoxPassword" FriendlyName="'INPUT pass'" FullSelectorArgument="&lt;webctrl id='pass' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='pass' tag='INPUT' type='password' class='input-text' aaname='Password' /&gt;" Guid="bb0bc5ad-55cc-4895-a45c-97a05de2a79d" InformativeScreenshot="fe1d03113a583acbbdc3444d8253c668.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='33486968' title='Customer Login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvTextArea="39, 591, 117, 21" CvTextArgument="Password *" CvType="Text" DesignTimeRectangle="41, 588, 115, 30" ElementType="Text" FriendlyName="'Password'" FullSelectorArgument="&lt;webctrl idx='2' parentid='login-form' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='login-form' tag='LABEL' class='label' aaname='' check:innerText='Password' /&gt;" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sign In'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4f998ac0-f06e-4093-aace-6557d0a9331c" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/" CvElementArea="38, 704, 119, 52" CvTextArea="61, 720, 72, 27" CvTextArgument="Sign In" CvType="Button" DesignTimeRectangle="65, 718, 68, 28" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Sign In'" FullSelectorArgument="&lt;webctrl parentid='send2' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='send2' tag='SPAN' type='' class='' aaname='Sign In' check:innerText='Sign In' /&gt;" Guid="8899a9c0-0c8f-4d8a-b4ec-bb4566470224" InformativeScreenshot="6fefa2cebc7bec5c9e5a75a3d0b3b7d8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='33486968' title='Customer Login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvElementArea="38, 704, 119, 52" CvTextArea="61, 720, 72, 27" CvTextArgument="Sign In" CvType="Button" DesignTimeRectangle="41, 708, 115, 47" ElementType="Button" FriendlyName="'Sign In'" FullSelectorArgument="&lt;webctrl id='send2' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='send2' tag='BUTTON' type='submit' class='action login primary' aaname='Sign In' check:innerText='Sign In' /&gt;" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT search'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="388,222.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="4f998ac0-f06e-4093-aace-6557d0a9331c" Text="watches for women" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://magento.softwaretestingboard.com/" CvTextArea="1419, 318, 253, 21" CvTextArgument="Search entire store here..." CvType="Text" DesignTimeRectangle="1407, 306, 375, 48" DesignTimeScaleFactor="1.5" ElementType="InputBox" FriendlyName="'INPUT search'" FullSelectorArgument="&lt;webctrl id='search' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='search' tag='INPUT' type='text' class='input-text' aaname=' Search ' /&gt;" Guid="b207f299-3f6a-4de9-b278-c25e3482bc68" InformativeScreenshot="a71849ecdbdfd0485ecc7b4718811b22.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='33486968' title='Home Page' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4f998ac0-f06e-4093-aace-6557d0a9331c" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://magento.softwaretestingboard.com/" DesignTimeRectangle="1743, 306, 24, 48" DesignTimeScaleFactor="1.5" ElementType="Button" FriendlyName="'Search'" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='action search' aaname='Search' check:innerText='Search' /&gt;" Guid="71ed90d4-de32-491c-b141-624752a9dfda" InformativeScreenshot="8b4d0ddfb820511c31601b8671df1133.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='33486968' title='Home Page' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Luma Analog Watch'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4f998ac0-f06e-4093-aace-6557d0a9331c" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://magento.softwaretestingboard.com/catalogsearch/result/?q=+watches+for+Women" DesignTimeRectangle="811, 302, 310, 388" DesignTimeScaleFactor="1.5" ElementType="Icon" FriendlyName="'IMG'" FullSelectorArgument="&lt;webctrl aaname='Luma Analog Watch' class='product-image-photo' parentid='maincontent' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Luma Analog Watch' class='product-image-photo' parentid='maincontent' tag='IMG' type='' /&gt;" Guid="a00f8eb9-b474-469c-adb9-1778b163b52b" InformativeScreenshot="5471fa5896c59418fd1df9bf0745e71f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='144118' title='Search results for: &amp;apos;watches for Women&amp;apos;' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvTextArea="810, 705, 195, 22" CvTextArgument="Luma Analog Watch" CvType="Text" DesignTimeRectangle="811, 703, 194, 28" ElementType="Text" FriendlyName="'Luma Analog Watch'" FullSelectorArgument="&lt;webctrl aaname=' Luma Analog Watch ' class='product-item-link' parentid='maincontent' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' Luma Analog Watch ' class='product-item-link' parentid='maincontent' tag='A' type='' check:innerText='Luma Analog Watch' /&gt;" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add to Cart'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4f998ac0-f06e-4093-aace-6557d0a9331c" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://magento.softwaretestingboard.com/luma-analog-watch.html" CvElementArea="1113, 420, 358, 84" CvTextArea="1215, 447, 154, 27" CvTextArgument="Add to Cart" CvType="Button" DesignTimeRectangle="1219, 444, 148, 36" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Add to Cart'" FullSelectorArgument="&lt;webctrl parentid='product-addtocart-button' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='product-addtocart-button' tag='SPAN' type='' class='' aaname='Add to Cart' check:innerText='Add to Cart' /&gt;" Guid="cc48f3c7-ea0a-44e1-8c89-c8b46b973815" InformativeScreenshot="98b0594b3b8e3509f11d8906d8d70274.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='144118' title='Luma Analog Watch' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvElementArea="1113, 420, 358, 84" CvTextArea="1215, 447, 154, 27" CvTextArgument="Add to Cart" CvType="Button" DesignTimeRectangle="1117, 424, 351, 77" ElementType="Button" FriendlyName="'Add to Cart'" FullSelectorArgument="&lt;webctrl id='product-addtocart-button' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='product-addtocart-button' tag='BUTTON' type='submit' class='action primary tocart' aaname='Add to Cart' check:innerText='Add to Cart' /&gt;" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'shopping cart'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4f998ac0-f06e-4093-aace-6557d0a9331c" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://magento.softwaretestingboard.com/luma-analog-watch.html" CvTextArea="463, 573, 132, 24" CvTextArgument="shopping cart." CvType="Text" DesignTimeRectangle="466, 571, 125, 26" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'shopping cart'" FullSelectorArgument="&lt;webctrl aaname='shopping cart' parentid='maincontent' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='shopping cart' parentid='maincontent' tag='A' type='' class='' check:innerText='shopping cart' /&gt;" Guid="f215a36b-6f82-4c68-af88-b961751d3bec" InformativeScreenshot="19b1f9704346fb7368e36ec10a4dbe50.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='144118' title='Luma Analog Watch' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Proceed to Checkout'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4f998ac0-f06e-4093-aace-6557d0a9331c" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://magento.softwaretestingboard.com/checkout/cart/" CvElementArea="1417, 494, 398, 84" CvTextArea="1479, 520, 274, 29" CvTextArgument="Proceed to Checkout" CvType="Button" DesignTimeRectangle="1481, 518, 269, 36" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Proceed to Checkout'" FullSelectorArgument="&lt;webctrl aaname='Proceed to Checkout' parentid='maincontent' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Proceed to Checkout' parentid='maincontent' tag='SPAN' type='' class='' check:innerText='Proceed to Checkout' /&gt;" Guid="3342c009-3c82-4d50-8bfb-c2737e777ef2" InformativeScreenshot="315899d7b27ef9ed84ef901430203a44.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='144118' title='Shopping Cart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvElementArea="1417, 494, 398, 84" CvTextArea="1479, 520, 274, 29" CvTextArgument="Proceed to Checkout" CvType="Button" DesignTimeRectangle="1420, 498, 392, 77" ElementType="Button" FriendlyName="'Proceed to Checkout'" FullSelectorArgument="&lt;webctrl parentid='maincontent' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='maincontent' tag='BUTTON' type='button' class='action primary checkout' aaname='Proceed to Checkout' check:innerText='Proceed to Checkout' /&gt;" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Next'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4f998ac0-f06e-4093-aace-6557d0a9331c" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://magento.softwaretestingboard.com/checkout/#shipping" CvElementArea="1075, 683, 118, 80" CvTextArea="1102, 709, 64, 25" CvTextArgument="Next" CvType="Button" DesignTimeRectangle="1103, 705, 62, 36" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Next'" FullSelectorArgument="&lt;webctrl parentid='shipping-method-buttons-container' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='shipping-method-buttons-container' tag='SPAN' type='' class='' aaname='Next' check:innerText='Next' /&gt;" Guid="d45ec685-c983-47f8-ba4e-c5987270ff59" InformativeScreenshot="ea0c4b846f436f01516aed5a5d6479be.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='144118' title='Checkout' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvElementArea="1075, 683, 118, 80" CvTextArea="1102, 709, 64, 25" CvTextArgument="Next" CvType="Button" DesignTimeRectangle="1077, 685, 115, 77" ElementType="Button" FriendlyName="'Next'" FullSelectorArgument="&lt;webctrl parentid='shipping-method-buttons-container' tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='shipping-method-buttons-container' tag='BUTTON' type='submit' class='button action continue primary' aaname='                             Next                         ' check:innerText='Next' /&gt;" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Place Order'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4f998ac0-f06e-4093-aace-6557d0a9331c" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://magento.softwaretestingboard.com/checkout/#payment" CvElementArea="983, 660, 211, 83" CvTextArea="1011, 687, 156, 27" CvTextArgument="Place Order" CvType="Button" DesignTimeRectangle="1013, 683, 152, 36" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Place Order'" FullSelectorArgument="&lt;webctrl aaname='Place Order' parentid='checkout-payment-method-load' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Place Order' parentid='checkout-payment-method-load' tag='SPAN' type='' class='' check:innerText='Place Order' /&gt;" Guid="04453252-33b2-4b19-a27f-f3b5b66da933" InformativeScreenshot="65b391cad606a53de9ef5eaac2408ea7.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='144118' title='Checkout' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CvElementArea="983, 660, 211, 83" CvTextArea="1011, 687, 156, 27" CvTextArgument="Place Order" CvType="Button" DesignTimeRectangle="986, 663, 205, 77" ElementType="Button" FriendlyName="'Place Order'" FullSelectorArgument="&lt;webctrl parentid='checkout-payment-method-load' tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='checkout-payment-method-load' tag='BUTTON' type='submit' class='action primary checkout' aaname='Place Order' check:innerText='Place Order' /&gt;" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NGetText DisplayName="Get Text 'Thank you'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="4f998ac0-f06e-4093-aace-6557d0a9331c" TextString="[ord_status]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://magento.softwaretestingboard.com/checkout/onepage/success/" CvTextArea="36, 502, 790, 67" CvType="AnyWordGroup" DesignTimeRectangle="41, 375, 786, 80" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Thank you'" FullSelectorArgument="&lt;webctrl parentid='maincontent' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='maincontent' tag='SPAN' type='' class='base' /&gt;" Guid="fdeb394d-4e6c-4cfe-92a9-cc32abfd9631" ImageBase64="" InformativeScreenshot="3f8f8e96983f8dbdbcebd8c1cf6bf309.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='79664556' title='Success Page' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <uix:NGetText DisplayName="Get Text 'Your order'" sap:VirtualizedContainerService.HintSize="388,159.33333333333334" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="4f998ac0-f06e-4093-aace-6557d0a9331c" TextString="[ord_id]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://magento.softwaretestingboard.com/checkout/onepage/success/" CvTextArea="39, 850, 335, 21" CvType="AnyWordGroup" DesignTimeRectangle="41, 847, 1793, 31" DesignTimeScaleFactor="1.5" ElementType="Text" FriendlyName="'Your order'" FullSelectorArgument="&lt;webctrl idx='2' parentid='maincontent' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='maincontent' tag='P' class='' aaname='Your order number is: .' /&gt;" Guid="5aaaf7f3-150b-416a-aecb-ee413a571e21" InformativeScreenshot="8d7672c3924002997159949fcf8c0d81.png" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='144118' title='Success Page' /&gt;" SearchSteps="FuzzySelector, CV" Version="V2" Visibility="Interactive" />
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,147.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Trace]" Message="[ord_status]" />
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="388,147.33333333333334" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[ord_id]" />
+            <uta:VerifyExpressionWithOperator AlternativeVerificationTitle="{x:Null}" KeepScreenshots="{x:Null}" OutputMessageFormat="{x:Null}" Result="{x:Null}" ScreenshotsPath="{x:Null}" ContinueOnFailure="True" DisplayName="Verify Expression with Operator" sap:VirtualizedContainerService.HintSize="388,200" sap2010:WorkflowViewState.IdRef="VerifyExpressionWithOperator_1" Operator="Equality" TakeScreenshotInCaseOfFailingAssertion="False" TakeScreenshotInCaseOfSucceedingAssertion="False">
+              <uta:VerifyExpressionWithOperator.FirstExpression>
+                <InArgument x:TypeArguments="x:String">[ord_status]</InArgument>
+              </uta:VerifyExpressionWithOperator.FirstExpression>
+              <uta:VerifyExpressionWithOperator.SecondExpression>
+                <InArgument x:TypeArguments="x:String">[msg]</InArgument>
+              </uta:VerifyExpressionWithOperator.SecondExpression>
+            </uta:VerifyExpressionWithOperator>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="0, 0, 1899, 1008" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAToSURBVHhe7ZtNiFVlGMcHGQYZIkQiRIYYzpUWwyDhYnAhERHhKsKFhITEuS7EhYiIuAgRaRnRIsKFRISLaOUqQsRFiyEkIiJaRLgYREJE7hWJGAT9/W/P0Zm3597zcT/OuZf3Dz/Onfs+79dzzvuc98x9zlwd6rZbL3XbScrxbqfd+obj67DDimdXTHKeCR/upq0f+fwEnvZIWw84XoRXzXT2xORW7Gz/05u0zx9wDHZatelXJ2293Gknl5nU3zbJPDbhFhwEa2UK1U2TRSZwHDbAm2geWiK6YhKYnvjAYOfhHS53ncUX67w694gRFzg2Pz4wyH3wNQN+bIMfFXLkr/AhzFt3zRGD4rbW+hiKrvOqbBJTbnBcs67rFYPZyWB0Vu7YAMuigOd9n8e/cBWWbSiTFR1rnb/Jpa6z4Q0wD13St+EYwfLaEEtGV9xZ2G1DG78IbgnI+49sEOVIWxvUP83nXWqP47BBU3V+YWf5AcfxxQcaX7RofB+8geTBBij5guNesFZfaNjbJnsNLYsbLMtVa3I04sxoYEfhr6yzkmhg16HQwHobp7T1Cfb36dtrLw/6k6OT1/hsrVYQlXeAdmNa51UvTd263oPSlyaTX8UR16g7aOvcF+rf5XgOekutlKik3deXXPIdNVYBdT50cKK+//BUjtu0cYRjsZOAsdb5vS0NlEG3Na3z4S6/QLT1/PEZvH4Hk/biw/ewz5rsr20Vi5N1sN+aGYtoXxuuT+EheOPI44w11V9OpTy4BfWC5II1MVbRDySrLItvifxl48NIHaBlcp5ANblNyBbRt/YP78I6eOPzGIkDtM6vECuWOVqt+sSVoGVxEorEraEd8JCJv2GmhUU98Qp137evXGFzCPZD6ed/6uwGxSFv3BlDO2DDzAqLOjpDxzlTv7Nc1u1rV9idAW2xP4PSdxKr5407Y7IOwF5nVHv87KmviAOyvu7gNO0lFq04V9g2wwGc6SUG7z0wlXGAsAedXrDLXRbY1OsAyhe4NekfI/12kGUdkCFHXO+kyYqZusKmdgfo2cGrl1HVARnfmakryqMDAvuQ6AAz7S+n0laiA8zMFeXRAYF9SHSAmbqiPDogsA+JDjBTV5RHBwT2IdEBZtpfTqWtPDIzV5TPvAOempkryqMDQvuA6AAzdUV5dEBgHxIdYKauKI8OCOxDogPMtL+cStswM1eURweE9gHRAWbqivJGOGBgxpaZuaK86Q44Yab91Wkny5aa4jrCzFxR3kQH6DeF37ppUjxLBEPlB70NN2FbaoqZuKK8aQ6onickUVEZYifgeYaYFbmivBkOSHs/yV2B/JSYPNGIfoPfw9JQ6tpj+9oV5bU7oPNfVtsajD5pkkYH5uZSnucA5fZ8BNt+8eVvZXusEXt+4ujVy8hzwJJ9rEcMIM8B4glnSWlvhwlMCxwTJq6UvCKptwMdULsYYBEHZCjB6Qcok/o2Uw6oQuMdcAAqpbYWgKWTXLWumisGqtxgBbOqL0N4KAPsEtSSkldaDHQXnIKqb5JkbBIwvyJI6s1Sa31KpAHDHvgcSr8RwqTX4S0+j+8liEmJSawwGb0zoJxid8IZ2P3JLbGZb4cNI00IFB9+Bi/1Xe//6A3T6VjnVcUEFR/0zlD2aozuGnpDdAVm/w1yiYmKJdDzhdb5RDLN/6+5uWdgJeNNTEE7OwAAAABJRU5ErkJggg==" InformativeScreenshot="ad7cf442d0b36467eea6c72570d8cc7f.jpg" Selector="&lt;html app='chrome.exe' htmlwindowname='33486968' title='Customer Login' /&gt;" Title="Customer Login" Url="https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
