@@ -1,0 +1,86 @@
+{
+  "name": "Ecommerce",
+  "projectId": "b4d6e76e-6b97-4ff6-a727-d095bb5dfae5",
+  "description": "Test Automation Project",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[23.12.0-preview]",
+    "UiPath.Testing.Activities": "[23.12.0-preview]",
+    "UiPath.UIAutomation.Activities": "[23.10.8]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.12.0.0",
+  "projectVersion": "1.0.161777309",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "dffa333b-11b6-4b0e-a919-934ce76386cc",
+        "testCaseType": "TestCase",
+        "fileName": "Ecomm_testcase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "e7f8d834-2e49-410c-b59d-46720ddab928",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "swagLab-testcase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "23c5a13a-67c0-44e2-b515-14349db6ad5d",
+        "testCaseType": "TestCase",
+        "fileName": "Loan_app.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "26a0ab3b-50d1-47ce-9bcb-cc0a0dc27a74",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "EToE-testcase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e8d9e423-01e6-464e-84ad-ac0699393df1",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Reusability-test2.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
